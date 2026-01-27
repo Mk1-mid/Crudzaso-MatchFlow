@@ -1,0 +1,63 @@
+/* Reseteo */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  /* background: #d3c6c6; */
+}
+
+/* Title */
+/* .h4 {
+  text-align: center;
+} */
+/* Hero */
+.hero {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Lado Izquierdo */
+.hero-left {
+  width: 50%;
+  background: #e5e5e5;
+}
+
+.hero-left h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.hero-left .hello {
+  font-size: 1.2rem;
+}
+
+.hero-left .role {
+  color: #777;
+}
+
+/* Lado Derecho */
+.hero-right {
+  width: 50%;
+  background: #040404;
+  position: relative;
+}
+
+.hero-img {
+  height: 85%;
+  object-fit: cover;
+}
+
+/* Nanbar */
+.navbar {
+  z-index: 10;
+  border-radius: 20px;
+
+  background: #040404;
+}
+
+/*  Icons */
+.social i {
+  font-size: 1.5rem;
+  margin-right: 15px;
+  cursor: pointer;
+}
