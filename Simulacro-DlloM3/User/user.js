@@ -85,6 +85,7 @@ async function renderProducts() {
                   </div>
                 </div>
       `;
+      
     };
     window.removeOrder = function (e) {
       e.closest(".order").remove();
