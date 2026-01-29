@@ -1,0 +1,68 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "img": "imagen.png",
+      "name": "food1",
+      "description": "Que Que.ñdvow",
+      "price": 5000,
+      "category": "burgers"
+    },
+    {
+      "id": 2,
+      "img": "imagen.png",
+      "name": "food2",
+      "description": "Que rico",
+      "price": 5000,
+      "category": "burgers"
+    },
+    {
+      "id": 3,
+      "img": "imagen.png",
+      "name": "food3",
+      "description": "Que bueno",
+      "price": 5000,
+      "category": "burgers"
+    },
+    {
+      "id": 4,
+      "img": "imagen.png",
+      "name": "food4",
+      "description": "Que delis",
+      "price": 5000,
+      "category": "burgers"
+    }
+  ],
+
+  "users": [
+    {
+      "fullName": "user1",
+      "user": "user1@",
+      "password": "111",
+      "rol": "user",
+      "data": 1656
+    }
+  ],
+  "userAdmin": [
+    {
+      "fullName": "duvan",
+      "user": "duvan@g.com",
+      "password": "123",
+      "rol": "admin"
+    }
+  ],
+  "orders": [
+    {
+      "id": "5",
+      "user": "user1@",
+      "total": 500,
+      "status": "preparing",
+      "data": "1/65/6",
+      "products": [
+        {
+          "nameFood": "pizza"
+        }
+      ]
+    }
+  ]
+}
